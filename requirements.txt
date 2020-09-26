@@ -1,0 +1,29 @@
+Required packages/modules (some of which are already included in Python3 like time, sys, warnings, shutil, os):
+
+pyspark
+findspark
+pandas
+numpy
+exifread
+pykalman
+osmnx
+networkx
+folium
+seaborn
+matplotlib
+sklearn
+glob
+sys
+time
+warnings
+os
+shutil
+
+# if you get an error message when attempting to install osmnx, try:
+#    sudo apt-get update -y
+#    sudo apt-get install -y libspatialindex-dev
+#    pip3 install Rtree
+
+# and then:
+#    pip3 install osmnx
+
